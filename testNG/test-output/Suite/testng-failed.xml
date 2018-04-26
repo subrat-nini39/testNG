@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.actitime.projcust.CreateCustProject">
+        <methods>
+          <include name="CreateCustomer"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.actitime.projcust.CreateCustProject -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
